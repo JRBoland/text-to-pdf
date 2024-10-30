@@ -24,7 +24,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ elementId, filename = '
   return (
     <button
       onClick={handleDownload}
-      className="mt-4 bg-green-800 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
+      className="bg-green-800 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
     >
       Download as PDF
     </button>
