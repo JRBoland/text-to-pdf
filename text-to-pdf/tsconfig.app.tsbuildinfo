@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/downloadbutton.tsx","./src/components/markdowneditor.tsx","./src/components/markdownpreview.tsx","./src/types/html2pdf.d.ts"],"version":"5.6.3"}
