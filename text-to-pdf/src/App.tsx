@@ -16,11 +16,13 @@ const App: React.FC = () => {
         <h1 className="text-xl sm:text-2xl font-bold mb-4 text-center">
           Markdown to PDF Converter
         </h1>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 my-4">
           <MarkdownEditor markdown={markdown} setMarkdown={setMarkdown} />
           <MarkdownPreview markdown={markdown} />
         </div>
+        <div className="flex justify-center">
         <DownloadButton elementId="markdown-preview" filename="document.pdf" />
+        </div>
       </div>
     </div>
   )

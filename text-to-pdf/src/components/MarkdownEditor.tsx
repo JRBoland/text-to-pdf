@@ -7,7 +7,7 @@ interface MarkdownEditorProps {
 
 const MarkdownEditor: React.FC<MarkdownEditorProps> = ({ markdown, setMarkdown }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col my-4">
       <label htmlFor="markdown-input" className="mb-2 font-semibold">
         Markdown Input
       </label>

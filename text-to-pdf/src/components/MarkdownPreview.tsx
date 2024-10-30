@@ -24,15 +24,15 @@ const MarkdownPreview: React.FC<MarkdownPreviewProps> = ({ markdown }) => {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col my-4">
       <label className="mb-2 font-semibold">Preview</label>
       <div className="border">
-      <div
-        id="markdown-preview"
-        className="p-4 overflow-auto prose max-w-none"
-        dangerouslySetInnerHTML={getMarkdownText()}
-      />
-    </div>
+        <div
+          id="markdown-preview"
+          className="p-4 overflow-auto prose max-w-none min-h-[20rem] mx-auto bg-white"
+          dangerouslySetInnerHTML={getMarkdownText()}
+        />
+      </div>
     </div>
   );
 };
